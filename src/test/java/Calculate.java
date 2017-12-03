@@ -2,15 +2,16 @@ import java.util.Scanner;
 
 /**
  * Created by Новруз on 03.12.2017.
+ * @author Новруз
  */
 public class Calculate {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Print the first number ( only double type)");
+		System.out.println("Print the first number");
 		double a = scanner.nextDouble();
-		System.out.println("Print the second number (only double type)");
+		System.out.println("Print the second number");
 		double b = scanner.nextDouble();
-		System.out.println("Print the third number (only double type)");
+		System.out.println("Print the third number");
 		double c = scanner.nextDouble();
 
 		System.out.println("What the operation do you want to do (+,-,*,/)?");
