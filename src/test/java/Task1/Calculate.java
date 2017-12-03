@@ -6,19 +6,21 @@ import java.util.Scanner;
  * Created by Новруз on 03.12.2017.
  * @author Новруз
  */
+
 public class Calculate {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Print the first number");
+		System.out.println("Print the first number"); //выводим первое значение
 		double a = scanner.nextDouble();
-		System.out.println("Print the second number");
+		System.out.println("Print the second number"); //выводим второе значение
 		double b = scanner.nextDouble();
-		System.out.println("Print the third number");
+		System.out.println("Print the third number"); //выводим третье значение
 		double c = scanner.nextDouble();
 
-		System.out.println("What the operation do you want to do (+,-,*,/)?");
+		System.out.println("What the operation do you want to do (+,-,*,/)?"); // выбираем какую из выбранных агрегаций хотим выполнить
 		String d = scanner.next();
 
+		/*Ниже выполняются операции в зависимости от выбранной выше агрегации*/
 		double e = a + b + c;
 		if (d.equals("+"))
 			System.out.printf("Your sum result is: %.4f", e);
