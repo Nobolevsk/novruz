@@ -21,22 +21,25 @@ public class Calculate {
 		String d = scanner.next();
 
 		/*Ниже выполняются операции в зависимости от выбранной выше агрегации*/
-		double e = a + b + c;
-		if (d.equals("+"))
+
+		if (d.equals("+")) {
+			double e = a + b + c;
 			System.out.printf("Your sum result is: %.4f", e);
-
-		double f = a - b - c;
-		if (d.equals("-"))
+		}
+		else  if (d.equals("-")) {
+			double f = a - b - c;
 			System.out.printf("Your minus result is: %.4f", f);
-
-		double g = a * b * c;
-		if (d.equals("*"))
+		}
+		else if (d.equals("*")) {
+			double g = a * b * c;
 			System.out.printf("Your multipl. result is: %.4f", g);
-
-		double k = a / b / c;
-		if (d.equals("/"))
+		}
+		else if (d.equals("/")){
+			double k = a / b / c;
 			System.out.printf("Your div result is: %.4f", k);
-
+		}
+		else
+			System.err.println("Please, print valid values!");
 
 		scanner.close();
 	}
