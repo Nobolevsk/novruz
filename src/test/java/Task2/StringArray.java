@@ -27,6 +27,7 @@ public class StringArray {
 			if (str.length() > max)
 				max = str.length();
 		}
+		System.out.println("Самое длинное слово↓");
 		for (int i = 0; i < array.length; i++) {
 			if (array[i].length() == max)
 				System.out.println(array[i]);
