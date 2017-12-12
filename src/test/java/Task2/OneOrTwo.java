@@ -8,10 +8,11 @@ import java.util.Scanner;
  * Created by Новруз on 11.12.2017.
  */
 public class OneOrTwo {
-
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		System.out.println("Введите желаемую цифру для запуска одной из двух программ:\n" +
+				" 1 - Калькулятор\n" +
+				" 2 - Поиск самого длинного слова");
 		int next = scanner.nextInt();
 
 		if (next == 1){
