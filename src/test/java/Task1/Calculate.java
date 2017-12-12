@@ -9,6 +9,10 @@ import java.util.Scanner;
 
 public class Calculate {
 	public static void main(String[] args) {
+		Calculate.calc();
+	}
+
+	public static void calc(){
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Print the first number"); //выводим первое значение
 		double a = scanner.nextDouble();

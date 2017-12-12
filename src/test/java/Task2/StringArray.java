@@ -1,6 +1,5 @@
 package Task2;
 
-import java.io.BufferedReader;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -10,6 +9,10 @@ import java.util.Scanner;
  */
 public class StringArray {
 	public static void main(String[] args) {
+		StringArray.array();
+	}
+
+	public static void array(){
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Введите количество строк для ввода: ");
 		int sumstr = scanner.nextInt();
@@ -23,10 +26,10 @@ public class StringArray {
 			array[i] = str;
 			if (str.length() > max)
 				max = str.length();
-			}
+		}
 		for (int i = 0; i < array.length; i++) {
 			if (array[i].length() == max)
 				System.out.println(array[i]);
 		}
-		}
-		}
+	}
+}
