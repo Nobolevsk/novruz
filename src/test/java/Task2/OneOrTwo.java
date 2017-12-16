@@ -22,7 +22,7 @@ public class OneOrTwo {
 			StringArray stringArray = new StringArray();
 			stringArray.array();}
 		else{
-			System.out.println("Sorry");
+			System.out.println("Введите цифру 1 или 2");
 		}
 	}
 }
