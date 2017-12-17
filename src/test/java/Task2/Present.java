@@ -1,5 +1,10 @@
 package Task2;
 
+import Task2.PresentBox.Box;
+import Task2.PresentBox.Candy;
+import Task2.PresentBox.Etc;
+import Task2.PresentBox.Jellybean;
+
 /**
  * Created by Новруз on 17.12.2017.
  */
