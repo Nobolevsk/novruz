@@ -30,7 +30,7 @@ public class Mass20 {
 		System.out.println("\nМинимально положительный элемент массива: " + max +
 				"\nМаксимально минимальный элемент массива: " + min);
 
-		System.out.println("↓↓↓После обмена значениями получаем↓↓↓");
+		System.out.println("\n↓↓↓После обмена индексами элементов результата получаем↓↓↓");
 		mass[maxI] = min;
 		mass[minI] = max;
 		for (int i = 0; i < mass.length; i++) {
